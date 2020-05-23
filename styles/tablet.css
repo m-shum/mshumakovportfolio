@@ -1,0 +1,65 @@
+@media only screen and (max-width: 1030px) {
+    body {
+        font-size: 17px;
+    }
+    
+    h1 { font-size: 43px; }
+    h2 { font-size: 34px; }
+    h3 { font-size: 27px; }
+    h4 { font-size: 22px; }
+    p {
+        font-size: 17px;
+        width: 49.15%;
+        padding: 61px 0;
+        line-height: 1.2;
+    }
+    
+    header, .regular-header-content, footer {
+        height: 43px;
+    }
+    
+    /*GRID-GAP - 1.7%*/
+    
+    .col-1 { width: 11.01%;}
+    .col-2 { width: 23.72%;}
+    .col-3{ width: 36.43%; }
+    .col-4 { width: 49.15%; }
+    .col-5 { width: 61.86%; }
+    .col-6 { width: 74.57%; }
+    .col-7 { width: 87.28%; }
+    .col-8 { width: 100%; }
+
+    .border-top { border-top: 2px solid #141616; }
+    .border-bottom { border-bottom: 2px solid #141616; }
+
+    header, footer, .project-label {
+        height: 43px;
+    }
+    
+    .intro {
+        font-size: 95px;
+        padding: 192px 0 149px 0;
+    }
+
+    .slash {
+        margin: 0 17px;
+    }
+
+    .totop {
+        height: 43px;
+        margin: 127px 0; 
+    }
+
+    .project-image {
+        margin-bottom: 17px;
+    }
+
+    .project-page-label {
+        margin-top: 43px
+    }
+
+    .prevnext {
+        margin: 0 0 43px 0;
+    }
+    
+}

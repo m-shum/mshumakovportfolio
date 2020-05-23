@@ -1,0 +1,144 @@
+@media only screen and (max-width: 800px){
+    body {
+        padding: 0 8px;
+        font-size: 14px;
+    }
+    
+    h1 { font-size: 34px; }
+    h2 { font-size: 27px; }
+    h3 { font-size: 22px; }
+    h4 { font-size: 17px; }
+    p {
+        font-size: 14px;
+        width: 100%;
+        padding: 34px 0;
+        line-height: 1.5;
+    }
+    
+    header, .regular-header-content, footer {
+        height: 34px;
+    }
+    
+    /*GRID-GAP - 1.7%*/
+    
+    .col-1 { width: 100%; }
+    .col-2 { width: 100%; }
+    .col-3 { width: 100%; }
+    .col-4 { width: 100%; }
+    .col-5 { width: 100%; }
+    .col-6 { width: 100%; }
+    .col-7 { width: 100%; }
+    .col-8 { width: 100%; }
+
+    .border-top { border-top: 2px solid #141616; }
+    .border-bottom { border-bottom: 2px solid #141616; }
+    
+    .intro {
+        font-size: 35px;
+        padding: 95px 0 61px 0;
+    }
+
+    .slash {
+        margin: 0 14px;
+    }
+
+    .regular-header-content, .project-label h4:last-of-type, .project-image-desktop {
+        display:none;
+    }
+
+    header, footer, .project-label {
+        height: 34px;
+    }
+
+    footer, footer a, .mobile-menu {
+        justify-content: center;
+    }
+
+    footer h2 {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .totop {
+        height: 34px;
+        margin: 104px 0;
+    }
+
+    .mobile-header-content, .mobile-menu {
+        display: flex;
+    }
+
+    .mobile-header-content {
+        flex-direction: row;
+        width: 100%;
+        margin: 8px;
+    }
+
+    .logo {
+        transform: translateX(-3px);
+    }
+
+    .logo span {
+        font-size: 34px;
+        color: var(--red);
+    }
+
+    .logo span:last-of-type {
+        position: absolute;
+        left: 19px
+    }
+
+    .burger {
+        transform: translateX(3px);
+    }
+
+    .burger {
+        font-size: 35px;
+        color: var(--red);
+        transform: rotate(90deg);
+        z-index:20;
+        transition: transform 0.5s ease;
+    }
+
+    .burger-active {
+        transform: rotate(-90deg);
+        color: var(--grey);
+    }
+
+    .mobile-menu {
+        position:absolute;
+        top:0;
+        left:101vw;
+        width:100vw;
+        height:100vh;
+        background-color: var(--red);
+        flex-direction: column;
+        padding: 8px;
+        transition: left 0.3s ease;
+    }
+
+    .mobile-menu-active {
+        left: 0;
+    }
+
+    .mobile-menu h1 {
+        color: var(--grey)
+    }
+
+    .project-image {
+        margin-bottom: 8px;
+    }
+
+    .project-image-mobile {
+        display: block;
+    }
+
+    .project-page-label {
+        margin-top: 34px;
+    }
+
+    .prevnext {
+        margin: 0 0 34px 0;
+    }
+    
+}
