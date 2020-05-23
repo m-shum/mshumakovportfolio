@@ -7,6 +7,7 @@ const scripts = function() {
   const burger = document.querySelector('.burger')
   const mobileMenu = document.querySelector('.mobile-menu')
   const inViews = document.querySelectorAll('.project-image, .project-video, .project')
+  const videos = document.querySelectorAll('video')
   
   /*custom cursor*/
   let mouseX = 0
@@ -70,13 +71,6 @@ const scripts = function() {
     burger.addEventListener('click', function() {
       burger.classList.toggle('burger-active')
       mobileMenu.classList.toggle('mobile-menu-active')
-      const mobileLinks = document.querySelectorAll('.mobile-menu a')
-      const tl = gsap.timeline({delay: 0.3});
-      tl.from(mobileLinks, {
-        opacity: 0, 
-        ease: "sine", 
-        stagger: 0.1
-      })
     })
   }
 
@@ -93,6 +87,11 @@ const scripts = function() {
 
   inViews.forEach(view => {
     observer.observe(view)
+  })
+
+  videos.forEach(video => {
+    video.autoplay = true
+    video.load()
   })
     
 }
