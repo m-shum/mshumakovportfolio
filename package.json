@@ -16,8 +16,8 @@
     "url": "https://github.com/m-shum/mshumakovportfolio/issues"
   },
   "homepage": "https://github.com/m-shum/mshumakovportfolio#readme",
-  "devDependencies": {},
-  "dependencies": {
-    "gulp-v3": "^3.12.1"
-  }
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {}
 }
