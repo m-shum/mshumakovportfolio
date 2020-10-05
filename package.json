@@ -1,0 +1,23 @@
+{
+  "name": "mshumportfolio",
+  "version": "1.0.0",
+  "description": "Mikhail Shumakov's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-shum/mshumakovportfolio.git"
+  },
+  "author": "Mikhail Shumakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-shum/mshumakovportfolio/issues"
+  },
+  "homepage": "https://github.com/m-shum/mshumakovportfolio#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "gulp-v3": "^3.12.1"
+  }
+}
