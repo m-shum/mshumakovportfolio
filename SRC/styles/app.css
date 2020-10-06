@@ -267,6 +267,76 @@ footer {
     display: block;
 }
 
+.me-img {
+    background-image: url(assets/dumbass.png);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 600px;
+    height: 700px;
+    margin: 200px 0 0 5%;
+    position: relative;
+}
+
+.doodle {
+    position: absolute;
+}
+
+.horn1 {
+    width: 50px;
+    top: 285px;
+    left:80px;
+    transform: rotate(-15deg);
+}
+
+.horn2 {
+    width: 55px;
+    top: 215px;
+    left:300px;
+    transform: rotate(-25deg);
+}
+
+.moustache {
+    width: 170px;
+    top: 535px;
+    left:210px;
+    transform: rotate(-15deg);
+}
+
+.goatee {
+    width: 60px;
+    top:605px;
+    left:310px;
+    transform: rotate(-15deg);
+}
+
+.arrow {
+    width: 300px;
+}
+
+.arrow:first-of-type {
+    margin-left: 40%;
+    transform: translateY(-50%);
+}
+
+.arrow:last-of-type {
+    margin: 100px 0 50px 60%;
+    transform: rotate(90deg)
+}
+
+.about h3 {
+    width: var(--p-width);
+}
+
+.about h3:first-of-type {
+    margin-left: 50%;
+}
+
+.about h3:last-of-type {
+    margin: 50px 0 300px 30%;
+}
+/*More media queries*/
+
 @media only screen and (hover: none) {
     .cursor {
         display: none;
