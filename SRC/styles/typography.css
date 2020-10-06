@@ -108,7 +108,7 @@ a {
 
 .regular-header-content h2:hover {
         font-variation-settings: "wght" 100;
-        letter-spacing: -3;
+        letter-spacing: 0;
 }
 
 .project-label:hover {

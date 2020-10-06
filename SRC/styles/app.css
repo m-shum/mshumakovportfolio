@@ -288,6 +288,10 @@ footer {
         padding: 0 8px;
     }
 
+    footer {
+        display: none;
+    }
+
     .regular-header-content, .project-label h4:last-of-type, .project-image-desktop {
         display:none;
     }
@@ -326,14 +330,13 @@ footer {
 
     .burger {
         transform: translateX(3px);
-    }
-
-    .burger {
         font-size: 35px;
         color: var(--red);
         transform: rotate(90deg);
         z-index:20;
         transition: transform 0.5s ease;
+        padding: 2em;
+        margin: -2em;
     }
 
     .burger-active {
