@@ -267,15 +267,20 @@ footer {
     display: block;
 }
 
+.me-doodle {
+    width: 600px;
+    height: 700px;
+    margin: 200px 0 0 5%;
+}
+
 .me-img {
     background-image: url(assets/dumbass.png);
     background-size: 200%;
     background-repeat: no-repeat;
     background-position:center;
-    width: 600px;
-    height: 700px;
-    margin: 200px 0 0 5%;
     position: relative;
+    width:100%;
+    height:100%;
 }
 
 .doodle {
@@ -311,30 +316,40 @@ footer {
 }
 
 .arrow {
-    width: 300px;
+    width: 250px;
 }
 
-.arrow:first-of-type {
-    margin-left: 40%;
-    transform: translateY(-50%);
+.about-text {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
-.arrow:last-of-type {
-    margin: 100px 0 50px 60%;
-    transform: rotate(90deg)
-}
-
-.about h3 {
+.about-text div {
     width: var(--p-width);
+    text-align: left;
 }
 
-.about h3:first-of-type {
-    margin-left: 50%;
+.about-text:first-of-type div {
+    margin-right: 15%;
+    padding-top: 100px;
 }
 
-.about h3:last-of-type {
-    margin: 50px 0 300px 30%;
+.about-text:last-of-type div {
+    margin-right: 30%;
+    padding: 200px 0;
 }
+
+.about-text:first-of-type div .arrow {
+    transform: translateX(100px) rotate(10deg);
+    margin-bottom:100px;
+}
+
+.about-text:last-of-type div .arrow {
+    transform: translateX(600px) rotate(70deg);
+    margin-bottom:200px;
+}
+
 /*More media queries*/
 
 @media only screen and (hover: none) {
@@ -351,6 +366,97 @@ footer {
     .prev {
         cursor: url("assets/leftarrow-large.png"), auto;
     }
+
+    .me-doodle {
+        position: absolute;
+    }
+
+    .about-text:first-of-type div {
+        padding-top: 500px;
+    }
+
+    .about-text:first-of-type div .arrow {
+        transform: translateX(-100px) rotate(-10deg);
+        margin-bottom:100px;
+    }
+}
+
+@media (--mq-tablet) {
+    .arrow {
+        width:150px;
+    }
+
+    .about-text div {
+        margin: 100px 15% 0;
+        padding-top: 0 !important;
+    }
+
+    .about-text:first-of-type div .arrow {
+        transform: translateX(-50%) rotate(-30deg) scaleX(-1);;
+    }
+
+    .about-text:first-of-type div .arrow, .about-text:last-of-type div .arrow {
+        margin-left:50%;
+    }
+    .about-text:last-of-type div .arrow {
+        transform: translateX(-50%) rotate(70deg);
+        margin-bottom:100px;
+    }
+
+    .about-text:last-of-type div {
+        padding: 0;
+        margin-bottom: 100px;
+    }
+
+    .me-doodle {
+        width: 500px;
+        height: 600px;
+        margin: 100px 0 0 50%;
+        transform: translateX(-50%);
+    }
+    
+    .me-img {
+        background-image: url(assets/dumbass.png);
+        background-size: 200%;
+        background-repeat: no-repeat;
+        background-position:center;
+        position: relative;
+        width:100%;
+        height:100%;
+    }
+    
+    .doodle {
+        position: absolute;
+    }
+    
+    .horn1 {
+        width: 40px;
+        top: 235px;
+        left:80px;
+        transform: rotate(-15deg);
+    }
+    
+    .horn2 {
+        width: 45px;
+        top: 185px;
+        left:240px;
+        transform: rotate(-25deg);
+    }
+    
+    .moustache {
+        width: 160px;
+        top: 445px;
+        left:160px;
+        transform: rotate(-15deg);
+    }
+    
+    .goatee {
+        width: 50px;
+        top:510px;
+        left:260px;
+        transform: rotate(-15deg);
+    }
+
 }
 
 @media (--mq-mobile) {
