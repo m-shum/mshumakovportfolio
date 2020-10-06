@@ -12,8 +12,9 @@
     src: url(assets/SpaceGroteskVF.ttf);
 }
 
+
 :root {
-    --title-font: "Monument";
+    --title-font: "Space Grotesk";
     --body-font: "Space Grotesk";
     --h1-size: 61px;
     --h2-size: 49px;
@@ -90,4 +91,27 @@ a {
     font-family: var(--title-font);
     font-size: var(--intro-font-size);
     line-height: 1;
+}
+
+.regular-header-content h2, .project-label {
+    font-variation-settings: "wght" 600;
+    transition: 0.3s ease;
+}
+
+.regular-header-content h2 {
+    letter-spacing: 3;
+}
+
+.project-label {
+    letter-spacing: 2;
+}
+
+.regular-header-content h2:hover {
+        font-variation-settings: "wght" 100;
+        letter-spacing: -3;
+}
+
+.project-label:hover {
+    font-variation-settings: "wght" 400;
+    letter-spacing: 0;
 }

@@ -101,6 +101,10 @@ header {
     margin: var(--header-footer-margin);
 }
 
+.regular-header-content .home {
+    width: 700px;
+}
+
 .regular-header-content, footer {
     height: var(--header-footer-height);
 }
