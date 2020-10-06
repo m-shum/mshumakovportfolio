@@ -1,0 +1,75 @@
+@media only screen and (min-width: 1910px) {
+body {
+        padding: 0 25px;
+        font-size: 25px;
+}
+
+h1 { font-size: 76px; }
+h2 { font-size: 61px; }
+h3 { font-size: 49px; }
+h4 { font-size: 31px; }
+p {
+    font-size: 25px;
+    width: 36.87%;
+    padding: 61px 0;
+    line-height: 1.2;
+}
+
+header, .regular-header-content, footer {
+    height: 76px;
+}
+
+.regular-header-content {
+    margin: 0 25px;
+}
+
+/*GRID-GAP - 1%*/
+
+.col-1 { width: 11.62%;}
+.col-2 { width: 24.25%;}
+.col-3{ width: 36.87%; }
+.col-4 { width: 49.5%; }
+.col-5 { width: 62.12%; }
+.col-6 { width: 74.75%; }
+.col-7 { width: 87.37%; }
+.col-8 { width: 100% }
+
+header, footer, .project-label {
+    height: 76px;
+}
+
+.intro {
+    font-size: 149px;
+    padding: 309px 0 233px 0;
+}
+
+.project-page-label {
+    margin-top: 76px;
+}
+
+.project-image {
+    margin-bottom: 25px;
+}
+
+.slash {
+    margin: 0 25px;
+}
+
+.totop {
+    height: 76px;
+    margin: 186px 0;
+}
+
+.prevnext {
+    margin: 0 0 76px 0;
+}
+
+.next {
+    cursor: url("assets/rightarrow-large.png"), auto;
+}
+
+.prev {
+    cursor: url("assets/leftarrow-large.png"), auto;
+}
+
+}
