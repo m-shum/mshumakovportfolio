@@ -94,7 +94,7 @@ a {
 }
 
 .regular-header-content h2, .project-label {
-    font-variation-settings: "wght" 600;
+    font-variation-settings: "wght" 900;
     transition: 0.3s ease;
 }
 
@@ -112,6 +112,6 @@ a {
 }
 
 .project-label:hover {
-    font-variation-settings: "wght" 400;
+    font-variation-settings: "wght" 100;
     letter-spacing: 0;
 }

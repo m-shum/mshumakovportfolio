@@ -160,10 +160,12 @@ header {
     pointer-events: none;
     z-index: 1000;
     transform: translate(10px, 10px);
+    transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 .cursor-hover {
     background-color: var(--red);
+    transform: scale(1.5);
   }
   
  .cursor-light {
