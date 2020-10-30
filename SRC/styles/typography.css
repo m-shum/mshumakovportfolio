@@ -1,0 +1,117 @@
+@custom-media --mq-large (min-width: 1910px);
+@custom-media --mq-tablet (max-width: 1400px);
+@custom-media --mq-mobile (max-width: 1100px);
+
+@font-face {
+    font-family: "Monument";
+    src: url(assets/MonumentExtended-Ultralight.woff2), url(assets/MonumentExtended-Ultralight.woff);
+}
+
+@font-face {
+    font-family: "Space Grotesk";
+    src: url(assets/SpaceGroteskVF.ttf);
+}
+
+
+:root {
+    --title-font: "Space Grotesk";
+    --body-font: "Space Grotesk";
+    --h1-size: 61px;
+    --h2-size: 49px;
+    --h3-size: 39px;
+    --h4-size: 25px;
+    --p-size: 20px;
+    --p-line-height: 1.2;
+    --intro-font-size: 119px;
+}
+
+@media (--mq-large) {
+    :root {
+        --h1-size: 76px;
+        --h2-size: 61px;
+        --h3-size: 49px;
+        --h4-size: 31px;
+        --p-size: 25px;
+        --p-line-height: 1.2;
+        --intro-font-size: 149px;
+    }
+}
+
+@media (--mq-tablet) {
+    :root {
+        --h1-size: 43px;
+        --h2-size: 34px;
+        --h3-size: 27px;
+        --h4-size: 22px;
+        --p-size: 17px;
+        --p-line-height: 1.2;
+        --intro-font-size: 95px;
+    }
+}
+
+@media (--mq-mobile) {
+    :root {
+        --h1-size: 34px;
+        --h2-size: 27px;
+        --h3-size: 22px;
+        --h4-size: 17px;
+        --p-size: 14px;
+        --p-line-height: 1.5;
+        --intro-font-size: 35px;
+    }
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--title-font);
+}
+
+h1 { font-size: var(--h1-size); }
+h2 { font-size: var(--h2-size); }
+h3 { font-size: var(--h3-size); }
+h4 { font-size: var(--h4-size); }
+
+body {
+    font-family: var(--body-font);
+    font-size: var(--p-size);
+}
+
+p {
+    width: 49.4%;
+    padding: 49px 0;
+    line-height: var(--p-line-height);
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.intro {
+    font-family: var(--title-font);
+    font-size: var(--intro-font-size);
+    line-height: 1;
+}
+
+.regular-header-content h2, .project-label {
+    font-variation-settings: "wght" 900;
+    transition: 0.3s ease;
+}
+
+.regular-header-content h2 {
+    letter-spacing: 3;
+}
+
+.project-label {
+    letter-spacing: 2;
+}
+
+.regular-header-content h2:hover {
+        font-variation-settings: "wght" 100;
+        letter-spacing: 0;
+}
+
+.project-label:hover {
+    font-variation-settings: "wght" 100;
+    letter-spacing: 0;
+}
