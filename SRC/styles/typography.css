@@ -115,3 +115,7 @@ a {
     font-variation-settings: "wght" 100;
     letter-spacing: 0;
 }
+
+.bold {
+    font-variation-settings: "wght" 900;
+}
