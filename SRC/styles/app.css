@@ -152,6 +152,11 @@ header {
     opacity: 0;
 }
 
+.project-link {
+    margin-bottom: var(--header-footer-height);
+    letter-spacing: 2;
+}
+
 .cursor {
     width: 25px;
     height: 25px;
